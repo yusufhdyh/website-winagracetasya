@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desain Tema Gelap</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="wrap">
+        <header class="header">
+            <h1>Belajar CSS & PHP</h1>
+            <p>Ini adalah halaman tutorial dengan desain tema gelap</p>
+        </header>
+
+        <nav class="menu">
+            <ul>
+                <li>Home</li>
+                <li>Tutorial</li>
+                <li>Contact</li>
+            </ul>
+        </nav>
+
+        <div class="clear"></div>
+
+        <div class="badan">
+            <div class="sidebar">
+                <h2>Sidebar</h2>
+                <p>Link 1</p>
+                <p>Link 2</p>
+                <p>Link 3</p>
+            </div>
+
+            <div class="content">
+                <h2>Konten Utama</h2>
+                <p>Ini adalah area konten utama di mana informasi akan ditampilkan.</p>
+            </div>
+        </div>
+
+        <footer class="footer">
+            <p>&copy; 2023 Belajar CSS & PHP. Semua hak dilindungi.</p>
+        </footer>
+    </div>
+</body>
+</html>

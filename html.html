@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belajar HTML</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <style>
+        body {
+            background-color: #121212; /* Warna latar belakang gelap */
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .wrap {
+            max-width: 800px;
+            margin: auto;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        h1, h2 {
+            color: #00ffcc; /* Warna teks h1 dan h2 */
+            text-shadow: 0 0 10px #00ffcc, 0 0 20px #00ffcc; /* Efek menyala */
+            animation: bubble 1.5s infinite; /* Animasi bergelembung */
+        }
+
+        p {
+            color: #e0e0e0; /* Warna teks paragraf */
+            text-shadow: 0 0 5px #781515; /* Efek menyala pada paragraf */
+        }
+
+        @keyframes bubble {
+            0%, 100% {
+                transform: scale(1);
+            }
+            50% {
+                transform: scale(1.05);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="wrap">
+        <div class="header">
+            <h1>Belajar HTML</h1>
+            <p>Ini adalah tutorial belajar HTML</p>
+        </div>
+
+        <h2>Pengertian HTML</h2>
+        <p>HTML merupakan salah satu bahasa pengkodean atau pemrograman yang digunakan untuk membuat halaman website yang ditampilkan pada web browser.</p>
+
+        <h2>Sejarah HTML</h2>
+        <p>HTML, atau Hypertext Markup Language, adalah bahasa markup yang digunakan untuk membuat struktur halaman web. Sejarahnya dimulai pada akhir tahun 1980-an ketika Tim Berners-Lee, seorang fisikawan di CERN, mengembangkan konsep sistem hypertext berbasis internet. Pada tahun 1991, ia merilis versi pertama HTML yang terdiri dari sekitar 18 tag.</p>
+
+        <h2>Fungsi HTML</h2>
+        <p><strong>1. Membangun Halaman Website</strong></p>
+        <p>HTML berfungsi sebagai dasar untuk membangun halaman website. Setiap elemen yang ditampilkan di web, seperti teks, gambar, dan video, diatur menggunakan tag HTML. Ini memungkinkan pengguna untuk mengakses dan membaca informasi melalui browser.</p>
+
+        <p><strong>2. Menampilkan Media dan Konten</strong></p>
+        <p>HTML juga berfungsi untuk memunculkan media seperti gambar, video, dan tabel dalam halaman web. Dengan menggunakan tag tertentu, pengembang dapat menampilkan berbagai jenis konten yang membuat website lebih menarik dan interaktif bagi pengguna.</p>
+
+        <p><strong>3. Hyperlink</strong></p>
+        <p>Salah satu fitur penting dari HTML adalah kemampuannya untuk mengarahkan pengguna ke halaman lain melalui hyperlink. Ini memungkinkan navigasi antar halaman web dengan mudah, sehingga pengguna dapat menemukan informasi terkait dengan cepat.</p>
+
+        <p><strong>4. Menandai Teks</strong></p>
+        <p>HTML digunakan untuk menandai teks dalam dokumen. Melalui penggunaan tag seperti <b> untuk teks tebal atau <i> untuk teks miring, pengembang dapat mengatur cara teks ditampilkan di halaman web.</p>
+
+        <p><strong>5. Struktur Dokumen</strong></p>
+        <p>HTML memberikan struktur pada dokumen dengan menggunakan tag yang mendefinisikan bagian-bagian seperti header, footer, dan paragraf. Ini membantu browser dalam merender konten dengan benar dan membuatnya lebih mudah dibaca oleh pengguna.</p>
+    </div>
+</body>
+</html>
